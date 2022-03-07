@@ -15,8 +15,8 @@
         </span>
       </div>
     <footer class="card-footer">
-      <a href="#" class="card-footer-item">Site</a>
-      <a href="#" class="card-footer-item">Code</a>
+      <a :href="link" class="card-footer-item">Site</a>
+      <a :href="code" class="card-footer-item">Code</a>
     </footer>
   </div>
 </template>
@@ -30,6 +30,7 @@ export default {
     description: String,
     image: String,
     tags: Array,
+    code: String
   },
 };
 </script>

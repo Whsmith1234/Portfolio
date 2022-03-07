@@ -1,104 +1,81 @@
 <template>
-<div>
-<nav class="navbar is-fixed-top" aria-label="main navigation" uk-navbar>
-                <a href="#"><img style="height:100%" src = "/128.png"></a>
-                <div class="uk-navbar-dropdown uk-open">
-                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="#">Active</a></li>
-                        <li><a href="#">Item</a></li>
-                        <li class="uk-nav-header">Header</li>
-                        <li><a href="#">Item</a></li>
-                        <li><a href="#">Item</a></li>
-                        <li class="uk-nav-divider"></li>
-                        <li><a href="#">Item</a></li>
-                    </ul>
-                </div>
-                
-  <div class="navbar-menu">
-     <a class="navbar-item">
-        Whsmith1234
-      </a>
-  </div>
-</nav>
-<br><br><br>
-<div class = "uk-container">
-  <div class="uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid="masonry: true">
-    <div class = "item" v-for="project in projects" :key = "project">
-      <HelloWorld :link="project.link" :name="project.name" :image="project.image" :tags="project.tags" :description="project.description"/>
+  <div>
+    <nav class="uk-navbar uk-navbar-container uk-navbar-transparent" aria-label="main navigation" uk-navbar>
+      <a href="#"><img style="height: 100%" src="/128.png" /></a>
+      <div class="uk-navbar-dropdown">
+        <ul class="uk-nav uk-navbar-dropdown-nav">
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li class="uk-nav-header">Contact</li>
+          <li><a href="https://github.com/Whsmith1234">Github</a> Whsmith1234</li>
+          <li><a href="mailto:wjpra@protonmail.com">Email</a> wjpra@protonmail.com</li>
+          <li><a href="tel:9059738035">Phone</a> 905-973-8035 </li>
+        </ul>
+      </div>
+
+      <div class="navbar-menu">
+        <a href ="#" class="navbar-item"> Whsmith1234 </a>
+      </div>
+    </nav>
+    <div id = "overlay" class="uk-overlay uk-position-cover uk-overlay uk-overlay-default" style="z-index: 10; position:fixed;">
+      <div class = "uk-position-center">
+      <h1
+        class="
+          fixed
+           uk-text-light uk-text-primary"
+        id = "name"
+      >
+        Will Prangley
+      </h1>
+      <a href="#resume" class = "main-link" style = "float:left;"> Resume </a>
+      <a href="#portfolio" class = "main-link" style="float:right"> Portfolio</a>
+
+      </div>
+     
     </div>
+    <div id="home">
+      <div class="uk-container">
+      <h1 class = "uk-text-light uk-text-primary" id = "name">About Me</h1>
+      <article class="uk-article">
+        <p>
+          Hello I am an undergratuate Mathematics students at Bishops University in Sherbrooke Quebec. When I'm not playing with my cats I'm probably playing guitar or my drums, programming or biking.
+          <br>
+          I find very compares to the dopamine rush after finding a good mathematical proof or code finally running and tend to chase that high quite a bit. 
+          <br>
+          Currently working on making the internet a more decentralized place through Arweave and Adamants's storage/messaging blockchains.
+          <br>
+          Have a lovely day!
+        </p>
+        
+      </article>
+      </div>
+      <resume/>
+      <portfolio :projects="projects"/>
+      <br>    
+      </div>
   </div>
-</div>
-</div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Resume from "@/components/Resume.vue"
+import Portfolio from "@/components/Portfolio.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    Portfolio,
+    Resume,
   },
   data: () => ({
-    projects: []
+    projects: [],
   }),
-  mounted: async function(){
-    for(var i =0;i<25;i++){
-      this.projects[i]= {
-        name:"Guelph Courses",
-        link: "name",
-        image: "https://d33wubrfki0l68.cloudfront.net/61391677a5c9a50ccb95a3bb/screenshot_2021-09-08-20-00-59-0000.png",
-        tags: ["hey","there"],
-        description: "Lorem ipsum"
-      }
-      }
-    }
-  }
+  mounted: async function () {
+    var p = await fetch("https://raw.githubusercontent.com/Whsmith1234/portfoliojson/main/projects.json");
+    p = await p.json();
+    this.projects = p;
+
+  },
+};
 </script>
 
 <style>
-.uk-navbar-nav > li> a{
-  color: white !important;
-}
-.navbar-menu {
-    flex-grow: 1;
-    flex-shrink: 0;
-    box-shadow: none !important;
-}
-.navbar, .navbar-end, .navbar-menu, .navbar-start {
-    align-items: stretch;
-    display: flex;
-}
-.navbar-item, .navbar-link {
-    align-items: center;
-    display: flex;
-}
-/* .navbar-dropdown {
-    background-color: #fff;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
-    border-top: 2px solid #dbdbdb;
-    box-shadow: 0 8px 8px rgba(10,10,10,.1);
-    display: none;
-    font-size: .875rem;
-    left: 0;
-    min-width: 100%;
-    position: absolute;
-    top: 100%;
-    z-index: 20;
-} */
-
-nav{
-  height: 5em;
-    box-shadow: 0 .5em 1em -.125em rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.02);
-
-
-}
-.navbar {
-    min-height: 3.25rem;
-}
-html {
-  box-sizing: border-box;
-}
-
 </style>

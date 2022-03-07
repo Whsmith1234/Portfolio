@@ -7,6 +7,7 @@
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/css/uikit.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="base.css">
     <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.11.1/dist/js/uikit-icons.min.js"></script>
@@ -16,7 +17,22 @@
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script>
+    <script src = "animation.js"></script>
+    <script>
+      window.onscroll = function() {myFunction()};
+   function myFunction() {
+       var navbar = document.getElementsByTagName("nav")[0];
+       console.log();
+       if (window.pageYOffset < 50 ) {
+             navbar.className = "uk-navbar uk-navbar-container uk-navbar-transparent";
+       } else {
+            navbar.className = navbar.className.replace("uk-navbar-transparent", "");
+       }
+   }
+   </script>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
+    
+    <a id = "bottom-right" onClick = "changeLines()">Line Radius Control</a>
   </body>
 </html>
