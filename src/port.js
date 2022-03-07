@@ -68,6 +68,14 @@ html, css, javascript, react, pwa, rust, tauri|
 Being an awful procrastinator I often found myself needing a way to keep up with essays. To do this I built an essay helper using react js which splits up the process of writing and gives a live word count 
 to keep me motivated working. Tauri was used to make the program a native app I could run while offline but using react I converted the site into a PWA to do the same.|
 https://github.com/Whsmith1234/Homework-Helper|
+Guelph Courses|
+https://guelphcourses.netlify.app|
+https://d33wubrfki0l68.cloudfront.net/61391677a5c9a50ccb95a3bb/screenshot_2021-09-08-20-00-59-0000.png|
+html,css,javascript,bootstrap,graphs|
+Scraped the university of Guelph's website to produce an adjacency matrix of all the undergraduate courses offered there.
+ Used this data to make a website to show university of Guelph students all of their available courses in graph format to show where courses lead to as well as the pre-requisits they require.
+|
+https://github.com/Whsmith1234/Guelph-Courses|
 
 `;
 s = s.replace(/[\n\r]/g,"");
