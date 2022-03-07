@@ -76,7 +76,12 @@ Scraped the university of Guelph's website to produce an adjacency matrix of all
  Used this data to make a website to show university of Guelph students all of their available courses in graph format to show where courses lead to as well as the pre-requisits they require.
 |
 https://github.com/Whsmith1234/Guelph-Courses|
-
+Adventure Attic|
+https://adventureattic.ca|
+https://cdn.shopify.com/s/files/1/0563/2776/6200/files/Screenshot_16_79c80b53-7a39-4310-8a14-2d8862bfc462_1200x1200.png?v=1628529578|
+javascript, data, shopify|
+Adventure Attic needed a custom integration between their POS software and their shopify store. My program allows them to upload new products automatically as well as allowing them to update inventory every night with the click of a button.|
+#|
 `;
 s = s.replace(/[\n\r]/g,"");
 s = s.split("|")
