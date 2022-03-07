@@ -16,7 +16,7 @@ Upload any video src to the Arweave Blockchain using the Arvid chrome extension.
 of the video later can use the chrome extension to view your saved copy or the original.| 
 https://github.com/Whsmith1234/AR-Vid|
 UGC|
-https://ugc.netlify.app/
+https://ugc.netlify.app|
 https://d33wubrfki0l68.cloudfront.net/61415ef1ce1f961374bc1523/screenshot_2021-09-15-02-48-18-0000.png|
 react,firebase,html,css,javascript|
 Users sign up with their school email which then brings them to the list of group chats currently available for their school as well as
