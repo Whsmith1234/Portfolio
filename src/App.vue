@@ -40,9 +40,9 @@
         <p>
           Hello!
           <br>
-           I am an undergratuate Mathematics students at Bishops University in Sherbrooke Quebec. When I'm not playing with my cats I'm probably playing guitar or my drums, programming or biking.
+           I am an undergratuate Mathematics students at Bishops University in Sherbrooke Quebec. When I'm not playing with my cats I'm probably playing guitar, programming or biking.
           <br>
-          I find very compares to the dopamine rush after finding a good mathematical proof or code finally running and tend to chase that high quite a bit. 
+          I find very little compares to the dopamine rush after finding a good mathematical proof or code finally running and tend to chase that high quite a bit. 
           <br>
           Currently working on making the internet a more decentralized place through Arweave and Adamants's storage/messaging blockchains.
           <br>
