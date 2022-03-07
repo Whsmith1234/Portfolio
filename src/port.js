@@ -99,8 +99,8 @@ Material CSS,html,javascript|
 React Scaffold|
 https://www.npmjs.com/package/react-scaffold-firebase|
 https://cdn.osxdaily.com/wp-content/uploads/2017/01/list-every-terminal-command-mac-2.jpg|
-CLI to construct react-firebase applications quickly with similar syntax to "rails scaffold".|
 npm, react, firebase, CLI|
+CLI to construct react-firebase applications quickly with similar syntax to "rails scaffold".|
 https://github.com/Whsmith1234/react-scaffold|
 Waterloo Screening Form|
 https://github.com/Whsmith1234/Waterloo|
@@ -109,7 +109,15 @@ javascript, chrome-extension|
 Filling out the university of Waterloo screening form was a pretty annoying task for a friend of mine every morning so I wrote a simple chrome extension to
  automatically fill out the form with the click of a button.|
  https://github.com/Whsmith1234/Waterloo|
- 
+Firechat|
+https://v9tfh.csb.app/?email=YOUREMAIL&pass=YOURPASS&user=1|
+https://screenshots.codesandbox.io/v9tfh.png|
+html,css,javascript,firebase|
+Firechat was a website used to chat with friends using the same link. This way I could send a single link in an email to them and then chat to our hearts content.
+ Users can choose whether to be partner 1 or 2 allowing for messages to be faked easily which helps with greater anonymity. By adding paremters to the site like ?email="YOUR EMAIL"&pass="YOUR PASS"&user=1 you can too use this site to 
+ contact people with the same link.|
+ https://github.com/Whsmith1234/Firechat|
+
 `;
 s = s.replace(/[\n\r]/g,"");
 s = s.split("|")
