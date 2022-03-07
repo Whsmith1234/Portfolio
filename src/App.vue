@@ -38,7 +38,9 @@
       <h1 class = "uk-text-light uk-text-primary" id = "name">About Me</h1>
       <article class="uk-article">
         <p>
-          Hello I am an undergratuate Mathematics students at Bishops University in Sherbrooke Quebec. When I'm not playing with my cats I'm probably playing guitar or my drums, programming or biking.
+          Hello!
+          <br>
+           I am an undergratuate Mathematics students at Bishops University in Sherbrooke Quebec. When I'm not playing with my cats I'm probably playing guitar or my drums, programming or biking.
           <br>
           I find very compares to the dopamine rush after finding a good mathematical proof or code finally running and tend to chase that high quite a bit. 
           <br>
