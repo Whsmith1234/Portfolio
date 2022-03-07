@@ -15,7 +15,7 @@ https://arvideo.netlify.app|
 https://d33wubrfki0l68.cloudfront.net/62219deba95d11408460f879/screenshot_2022-03-04-05-04-46-0000.png|
 vue,html,css,javascript,arweave,video,chrome-extension|
 Upload any video src to the Arweave Blockchain using the Arvid chrome extension. The video can now not be taken down, changed or censored due to the nature of the arweave network. People visting the location
-of the video later can use the chrome extension to view your saved copy or the original.| 
+ of the video later can use the chrome extension to view your saved copy or the original.| 
 https://github.com/Whsmith1234/AR-Vid|
 UGC|
 https://ugc.netlify.app|
