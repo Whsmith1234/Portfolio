@@ -69,7 +69,7 @@ export default {
     projects: [],
   }),
   mounted: async function () {
-    var p = await fetch("https://raw.githubusercontent.com/Whsmith1234/portfoliojson/main/projects.json");
+    var p = await fetch("https://raw.githubusercontent.com/Whsmith1234/Portfolio/master/src/jsonCourses.json");
     p = await p.json();
     this.projects = p;
 
