@@ -6,7 +6,9 @@ Bridge Market|
 https://bridge-market.netlify.app|
 https://d33wubrfki0l68.cloudfront.net/6183594cf753f94e9461e97d/screenshot_2021-11-04-03-53-51-0000.png|
 vue,html,css,javascript,blockchain,adamant,arweave|
-Cross-chain decentralized NFT marketplace with 6 tokens available|
+Cross-chain decentralized NFT marketplace with six tokens available
+.Built in vuejs users can sign up and get all of their wallets made for them. They can then use the custom bidding system to trade NFTs across multiple different networks while maintaining
+the trustless decentralized benefits of standard decentralized marketplaces like Opensea|
 https://github.com/Whsmith1234/Bridge-Market|
 Arvid|
 https://arvideo.netlify.app|
