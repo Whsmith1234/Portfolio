@@ -3,7 +3,7 @@ const fs = require("fs");
 const fd = fs.openSync("jsonCourses.json", "w");
 var s = `
 Bridge Market|
-https://bridge-market.netlify.app|
+https://bridgemarket.netlify.app|
 https://d33wubrfki0l68.cloudfront.net/6183594cf753f94e9461e97d/screenshot_2021-11-04-03-53-51-0000.png|
 vue,html,css,javascript,blockchain,adamant,arweave|
 Cross-chain decentralized NFT marketplace with six tokens available
