@@ -8,7 +8,7 @@ https://d33wubrfki0l68.cloudfront.net/6183594cf753f94e9461e97d/screenshot_2021-1
 vue,html,css,javascript,blockchain,adamant,arweave|
 Cross-chain decentralized NFT marketplace with six tokens available
 . Built in vuejs users can sign up and get all of their wallets made for them. They can then use the custom bidding system to trade NFTs across multiple different networks while maintaining
-the trustless decentralized benefits of standard decentralized marketplaces like Opensea|
+the trustless decentralized benefits of standard decentralized marketplaces like Opensea.|
 https://github.com/Whsmith1234/Bridge-Market|
 Arvid|
 https://arvideo.netlify.app|
@@ -47,6 +47,27 @@ webGL,3d graphics|
 3agraphics from Guelph Ontario needed a custom 3d box modelling designer for clients to design their own shipping materials. Using webGl and p5.js users could view the box from every angle as well as upload images to customize their work.
 |
  |
+JSTAS|
+https://jstats.netlify.app|
+https://d33wubrfki0l68.cloudfront.net/6139150cdc2d59134feeddcc/screenshot_2021-09-08-19-54-53-0000.png|
+mathematics, statistics, notebooks, ide, javascript|
+Use client side javascript in a notebook experience with built in graphing and statistical libraries as well as some extra functions to give your programs a more sequential input experience
+similar to cin>> or input("").|
+https://github.com/Whsmith1234/jstas|
+SMS image compression|
+https://romantic-khorana-8cc1b8.netlify.app/|
+https://d33wubrfki0l68.cloudfront.net/61392afe85f95600d51622d0/screenshot_2021-09-08-21-28-31-0000.png|
+images,p5.js,javscript,compression,sms|
+Converts images and drawings into a string of characters that can then be translated back to the image using the website. I made this when I did not have data on my phone and needed a way to send
+ my friends images via text message. By storing only the pixels where colours change it allows for tiny strings to express readable drawings.
+|https://github.com/Whsmith1234/SMS-image-compression|
+Homework Helper|
+https://homework-help.netlify.app/|
+https://homework-help.netlify.app/|
+html, css, javascript, react, pwa, rust, tauri|
+Being an awful procrastinator I often found myself needing a way to keep up with essays. To do this I built an essay helper using react js which splits up the process of writing and gives a live word count 
+to keep me motivated working. Tauri was used to make the program a native app I could run while offline but using react I converted the site into a PWA to do the same.|
+https://github.com/Whsmith1234/Homework-Helper|
 
 `;
 s = s.replace(/[\n\r]/g,"");
