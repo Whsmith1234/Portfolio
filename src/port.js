@@ -30,7 +30,7 @@ https://d33wubrfki0l68.cloudfront.net/61bbd4f8b8bb41346bdb3f5d/screenshot_2021-1
 |
 html,css,javascript,python,SQL|
 The team at MySkinDose needed a website to show off their product and mission. They also needed to be able to accept emails of potential customers which is done via a flask api.|
-#|
+#portfolio|
 True Market Leaders|
 https://truemarketleaders.com|
 https://d33wubrfki0l68.cloudfront.net/6149f787920d231768cdcb5f/screenshot_2021-09-21-15-17-28-0000.png
@@ -38,7 +38,7 @@ https://d33wubrfki0l68.cloudfront.net/6149f787920d231768cdcb5f/screenshot_2021-0
 html,css,js,bootstrap,python,SQL|
 Stock screener used to check if a certain stock is good pick based on a custom algorithm computed using python via a flask api. 
 The most commonly searched stocks are stored in a MySql database to limit external api callls and computing resources.|
-#|
+#portfolio|
 3a Graphics|
 https://3aboxes.netlify.app|
 https://d33wubrfki0l68.cloudfront.net/61760c9a14f124345f1b8aac/screenshot_2021-10-25-01-47-08-0000.png
@@ -46,7 +46,7 @@ https://d33wubrfki0l68.cloudfront.net/61760c9a14f124345f1b8aac/screenshot_2021-1
 webGL,3d graphics|
 3agraphics from Guelph Ontario needed a custom 3d box modelling designer for clients to design their own shipping materials. Using webGl and p5.js users could view the box from every angle as well as upload images to customize their work.
 |
-#|
+#portfolio|
 JSTAS|
 https://jstats.netlify.app|
 https://d33wubrfki0l68.cloudfront.net/6139150cdc2d59134feeddcc/screenshot_2021-09-08-19-54-53-0000.png|
@@ -77,11 +77,39 @@ Scraped the university of Guelph's website to produce an adjacency matrix of all
 |
 https://github.com/Whsmith1234/Guelph-Courses|
 Adventure Attic|
-https://adventureattic.ca|
+https://www.adventureatticoutdoor.ca/|
 https://cdn.shopify.com/s/files/1/0563/2776/6200/files/Screenshot_16_79c80b53-7a39-4310-8a14-2d8862bfc462_1200x1200.png?v=1628529578|
 javascript, data, shopify|
 Adventure Attic needed a custom integration between their POS software and their shopify store. My program allows them to upload new products automatically as well as allowing them to update inventory every night with the click of a button.|
-#|
+#portfolio|
+Pinterest|
+https://github.com/Whsmith1234/Pinterest|
+https://upload.wikimedia.org/wikipedia/en/9/9c/Pinterest_home.png|
+chrome-extension, javascript|
+My girlfriend needed a way to scroll through images on Pinterest.ca similar to the mobile app without opening a seperate page 
+for every post. I made her a chrome extension to do just that by scrolling through the images via the left and right arrow keys.|
+https://github.com/Whsmith1234/Pinterest|
+3a Graphics Banners|
+https://3abanners.netlify.app/|
+https://d33wubrfki0l68.cloudfront.net/61673adc28d0250087a5697b/screenshot_2021-10-13-20-00-29-0000.png|
+Material CSS,html,javascript|
+3a Graphcs from Guelph Ontario wanted to update their order process for clients from physical sheets of paper. This site gave users a search funcition for their products
+ while still maintaining a familiar feel|
+#portfolio|
+React Scaffold|
+https://www.npmjs.com/package/react-scaffold-firebase|
+https://cdn.osxdaily.com/wp-content/uploads/2017/01/list-every-terminal-command-mac-2.jpg|
+CLI to construct react-firebase applications quickly with similar syntax to "rails scaffold".|
+npm, react, firebase, CLI|
+https://github.com/Whsmith1234/react-scaffold|
+Waterloo Screening Form|
+https://github.com/Whsmith1234/Waterloo|
+https://wstore.uwaterloo.ca/static/frontend/Smartwave/porto_child/en_US/Mangoit_Uwprs/images/UniversityOfWaterloo_logo_vert_rgb.png|
+javascript, chrome-extension|
+Filling out the university of Waterloo screening form was a pretty annoying task for a friend of mine every morning so I wrote a simple chrome extension to
+ automatically fill out the form with the click of a button.|
+ https://github.com/Whsmith1234/Waterloo|
+ 
 `;
 s = s.replace(/[\n\r]/g,"");
 s = s.split("|")
