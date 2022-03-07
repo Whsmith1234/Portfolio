@@ -63,7 +63,7 @@ Converts images and drawings into a string of characters that can then be transl
 |https://github.com/Whsmith1234/SMS-image-compression|
 Homework Helper|
 https://homework-help.netlify.app/|
-https://d33wubrfki0l68.cloudfront.net/61e250876a840ea1197e7817/screenshot_2022-01-15-04-41-45-0000.png
+https://d33wubrfki0l68.cloudfront.net/61e250876a840ea1197e7817/screenshot_2022-01-15-04-41-45-0000.png|
 html, css, javascript, react, pwa, rust, tauri|
 Being an awful procrastinator I often found myself needing a way to keep up with essays. To do this I built an essay helper using react js which splits up the process of writing and gives a live word count 
 to keep me motivated working. Tauri was used to make the program a native app I could run while offline but using react I converted the site into a PWA to do the same.|
