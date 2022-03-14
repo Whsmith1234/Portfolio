@@ -54,7 +54,7 @@ export default {
         meta: "Hamilton Developer September 2021-Present",
         points: [
           "Developed the auction interface and functionality for the Bridge-Market NFT exchange built on top of the Adamant Blockchain.",
-          `Allowed the Market to accept Ethereum and Bitcoin transactions as well
+          `Allowed the Market to accept Ether and Bitcoin transactions as well
           as the native token of ADM in a decentralised manner.`,
           `Developed the storage interface to upload media files to the Arweave Blockchain Network.`,
         ],
