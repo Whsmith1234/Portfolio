@@ -31,14 +31,6 @@ https://d33wubrfki0l68.cloudfront.net/61bbd4f8b8bb41346bdb3f5d/screenshot_2021-1
 html,css,javascript,python,SQL|
 The team at MySkinDose needed a website to show off their product and mission. They also needed to be able to accept emails of potential customers which is done via a flask api.|
 #portfolio|
-True Market Leaders|
-https://truemarketleaders.com|
-https://d33wubrfki0l68.cloudfront.net/6149f787920d231768cdcb5f/screenshot_2021-09-21-15-17-28-0000.png
-|
-html,css,js,bootstrap,python,SQL|
-Stock screener used to check if a certain stock is good pick based on a custom algorithm computed using python via a flask api. 
-The most commonly searched stocks are stored in a MySql database to limit external api callls and computing resources.|
-#portfolio|
 3a Graphics|
 https://3aboxes.netlify.app|
 https://d33wubrfki0l68.cloudfront.net/61760c9a14f124345f1b8aac/screenshot_2021-10-25-01-47-08-0000.png
