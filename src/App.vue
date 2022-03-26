@@ -44,8 +44,6 @@
           <br>
           I find very little compares to the dopamine rush after finding a good mathematical proof or code finally running and tend to chase that high quite a bit. 
           <br>
-          Currently working on making the internet a more decentralized place through Arweave and Adamants's storage/messaging blockchains.
-          <br>
           Have a lovely day!
         </p>
         

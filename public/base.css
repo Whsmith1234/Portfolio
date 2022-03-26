@@ -1,0 +1,88 @@
+#bottom-right{
+  position: fixed;
+  bottom:20px;
+  right:10px;
+  z-index: 10;
+  color: #42b983;
+  background-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  padding:10px
+}
+.main-link{
+  padding:10px;
+  background: #42b983;
+  color: white;
+  width:45%;
+  text-align: center;
+  border-radius: 5px;
+}
+.main-link:hover{
+  text-decoration: none !important;
+  color:white !important;
+  background-color: #34495e;
+}
+#name{
+  color: #42b983 !important;
+  font-size:3em;
+  text-align: center;
+  margin-bottom:1.5em;
+  margin-top: 50px;
+}
+#defaultCanvas0 {
+  position: fixed;
+  top: 0px;
+}
+#home {
+  position: absolute;
+  width: 100%;
+  z-index: 11;
+  top: 100%;
+  background: white;
+}
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: #ffffff;
+}
+.navbar-menu {
+  flex-grow: 1;
+  flex-shrink: 0;
+  box-shadow: none !important;
+  background-color: rgba(0,0,0,0) !important;
+}
+.navbar,
+.navbar-end,
+.navbar-menu,
+.navbar-start {
+  align-items: stretch;
+  display: flex;
+}
+.navbar-item,
+.navbar-link {
+  align-items: center;
+  display: flex;
+}
+.uk-navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    width: 100%;
+
+}
+#overlay{
+  background-color: rgba(0,0,0,0);
+}
+.uk-navbar-transparent{
+  box-shadow: none;
+}
+nav {
+  height: 5em;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+    0 0 0 1px rgba(10, 10, 10, 0.02);
+}
+.navbar {
+  min-height: 3.25rem;
+}
+html {
+  box-sizing: border-box;
+}
