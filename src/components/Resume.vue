@@ -83,7 +83,7 @@ export default {
         title: "Bishops University",
         meta: "Sherbrooke Quebec B.A Mathematics January 2022-Present",
         points: [
-          "98% average across full time 5 courses",
+          "95% average across full time 5 courses",
           `Calculus, Systems Programming, History of Math, Intro to Computer Science, Macro Economics`
         ],
       },
