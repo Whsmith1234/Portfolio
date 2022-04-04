@@ -22,7 +22,7 @@ https://ugc.netlify.app|
 https://d33wubrfki0l68.cloudfront.net/61415ef1ce1f961374bc1523/screenshot_2021-09-15-02-48-18-0000.png|
 react,firebase,html,css,javascript|
 Users sign up with their school email which then brings them to the list of group chats currently available for their school as well as
-the ability to make more. From there they can chat in real time with other students at their school|
+ the ability to make more. From there they can chat in real time with other students at their school|
 https://github.com/Whsmith1234/group-chats|
 MySkinDose|
 https://myskindose.com|
@@ -44,7 +44,7 @@ https://jstats.netlify.app|
 https://d33wubrfki0l68.cloudfront.net/6139150cdc2d59134feeddcc/screenshot_2021-09-08-19-54-53-0000.png|
 mathematics, statistics, notebooks, ide, javascript|
 Use client side javascript in a notebook experience with built in graphing and statistical libraries as well as some extra functions to give your programs a more sequential input experience
-similar to cin>> or input("").|
+ similar to cin>> or input("").|
 https://github.com/Whsmith1234/jstas|
 SMS image compression|
 https://romantic-khorana-8cc1b8.netlify.app/|
